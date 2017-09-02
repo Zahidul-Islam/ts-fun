@@ -1,0 +1,33 @@
+{
+  "name": "ts-fun",
+  "version": "0.0.1",
+  "description": "Implementing lodash library in typescript for fun :-)",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha -r ts-node/register src/**/*.spec.ts",
+    "lint": "eslint src --ext ts",
+    "tsc": "tsc"
+  },
+  "keywords": [
+    "typescript",
+    "lodash",
+    "functional programming"
+  ],
+  "author": "Zahidul Islam <zahidsharp@outlook.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chai": "4.0.4",
+    "@types/mocha": "2.2.42",
+    "@types/node": "8.0.26",
+    "chai": "4.1.2",
+    "eslint": "4.6.0",
+    "eslint-config-airbnb-base": "12.0.0",
+    "eslint-plugin-import": "2.7.0",
+    "eslint-plugin-promise": "3.5.0",
+    "mocha": "3.5.0",
+    "ts-node": "3.3.0",
+    "typescript": "2.5.2",
+    "typescript-eslint-parser": "7.0.0"
+  }
+}
