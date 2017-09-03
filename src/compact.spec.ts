@@ -1,11 +1,11 @@
 import 'mocha'
 import { expect } from 'chai'
 
-import compact from './compact'
+import * as _ from './../index'
 
 describe('Creates an array with all falsey values removed', () => {
   it('should remove The values false, null, 0, "", undefined, and NaN', () => {
-    const result = compact([0, 1, false, 2, '', 3, undefined])
+    const result = _.compact([0, 1, false, 2, '', 3, undefined])
     expect(result).to.not.include(undefined)
     expect(result).to.not.include(false)
     expect(result).to.not.include(null)

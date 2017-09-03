@@ -1,4 +1,4 @@
-export default function chunk (array: Array<any>, size: number) {
+export function chunk (array: Array<any>, size: number) {
   let index = 0
   let resIndex = 0
   const result = []

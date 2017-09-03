@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "test": "mocha -r ts-node/register src/**/*.spec.ts",
-    "lint": "eslint src --ext ts",
+    "lint": "eslint src --ext ts --fix",
     "tsc": "tsc"
   },
   "keywords": [
@@ -15,6 +15,10 @@
     "functional programming"
   ],
   "author": "Zahidul Islam <zahidsharp@outlook.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zahidul-Islam/ts-fun.git"
+  },
   "license": "MIT",
   "devDependencies": {
     "@types/chai": "4.0.4",
